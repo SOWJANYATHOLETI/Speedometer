@@ -1,0 +1,62 @@
+.app-container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.heading2 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.image {
+  height: 300px;
+  width: 60%;
+}
+.speed-limit {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.accelerate-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  background-color: #0b69ff;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.brake-button {
+  color: #94a3b8;
+  border: 1px solid #94a3b8;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
